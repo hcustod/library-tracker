@@ -1,0 +1,90 @@
+.header {
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    margin-block: 30px;
+
+  }
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.top {
+    width: 1000px;
+    height: 400px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    text-align: center;
+    text-justify: center;
+    margin-top: 50px;
+    margin-block: 30px;
+  }
+
+
+.bottom {
+    width: 1000px;
+    height: 1100px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    text-align: center;
+    text-justify: center;
+    margin-block: 30px;
+
+  }
+
+.switch-field label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.switch-field input[type="checkbox"] {
+  display: none;
+}
+
+.switch-field input[type="checkbox"] + span {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.switch-field input[type="checkbox"]:checked + span {
+  background-color: #007bff;
+}
+
+
+input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-block: 0.5%;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-block: 0.5%;
+}
+
+
